@@ -1,4 +1,50 @@
 body{
     margin: 0;
     padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 18px;
+    border-bottom: 1px solid black;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    padding-inline: 28px;
+    background-color: rgba(153, 50, 204, 0.13);
+    wi
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-block: 24px ;
+}
+
+section h2{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    padding: 4rem;
+    color: white;
+    background-color: darkorchid;
 }
